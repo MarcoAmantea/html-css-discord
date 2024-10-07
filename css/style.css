@@ -64,6 +64,7 @@ a{
     display: flex;
     background-size: cover;
     text-align: center;
+    height: 550px;
 }
 
 .pink{
@@ -159,6 +160,7 @@ height: 500px;
 }
 .flag{
     height: 15px;
+    margin-right: 10px;
 }
 .talk{
     color:hsl(226.53deg 50.52% 61.96%) ;
