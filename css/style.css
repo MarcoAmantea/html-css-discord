@@ -2,30 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
 }
+
+/*Inizio Header*/
 header{
-    background-color: hsl(194.74deg 53.27% 79.02%);
+    background-color: hsl(222.55deg 81.67% 52.94%);
     height: 60px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
 .navbar{
     padding: 10px;
 }    
 .row{
-    background-color: hsl(42.9deg 74.4% 49.02%);
+    background-color: hsl(222.55deg 81.67% 52.94%);
     display: flex;    
+    height: 40px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
 }
 .col20{
-    border: 1px dashed;
     width: 20%;
     padding: 10px;
 }
 .col60{
-    border: 1px dashed;
     width: 60%;
     padding: 10px;
     text-align: center;
@@ -33,6 +45,13 @@ header{
 .login{
     text-align: right;
 }
+.square{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/*Inizio Main*/
 .blue{
     background-color: hsl(240deg 100% 27.25%);
     width: 100%;
