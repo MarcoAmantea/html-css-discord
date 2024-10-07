@@ -30,7 +30,7 @@ a{
     display: flex;    
     height: 40px;
 }
-ul{
+.navlist{
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -139,40 +139,75 @@ p{
     border-radius: 20px;
     margin-right: 10px;
 }
+.row3{
+display: flex;
+height: 500px;
+}
+
+/*Inizio del footer*/
+
+/*Prima sezione Footer*/
 .black{
-    background-color: black;
+    background-color: hsl(205.71deg 9.09% 15.1%);
     width: 100%;
     display: flex;
 }
+.ita{
+    color: white;
+    margin-bottom: 20px;
+}
+.flag{
+    height: 15px;
+}
+.talk{
+    color:hsl(226.53deg 50.52% 61.96%) ;
+    margin-top: 70px;
+}
+ul{
+    list-style: none;
+    color: 
+}
+li{
+    margin:20px 0 20px 0;
+    color: white;
+}
+h3{
+    margin-top: 70px;
+    color:hsl(226.53deg 50.52% 61.96%) ;
+}
 .col3{
     width: 40%;
-    background-color: hsl(0deg 78.87% 72.16%);
     height: 400px;
     margin: 10px 0 30px 0;
-    border: 1px dashed;
 }
 .col4{
     width: 15%;
-    background-color: hsl(176.71deg 69.52% 41.18%);
+    background-color:  hsl(205.71deg 9.09% 15.1%);
     height: 400px;
     margin: 10px 0 30px 0;
-    border: 1px dashed white;
 }
-.row3{
+hr{
+color:hsl(226.73deg 58.43% 65.1%);
+background:hsl(226.73deg 58.43% 65.1%);
+border: 0;
+height: 1px;
+}
+
+/*Ultima sezione footer*/
+.row4{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: hsl(159.84deg 100% 74.9%);
-    height: 50px;
-    margin-top: 20px;
+    background-color:  hsl(205.71deg 9.09% 15.1%);
+    height: 90px;
 }
 .final-logo{
     color: black;
-    background-color: hsl(350.96deg 100% 85.69%);
-    border: 1px dashed black;
+    background-color:  hsl(205.71deg 9.09% 15.1%);
 }
 .final-button{
-    color:black;
-    background-color: hsl(350.96deg 100% 85.69%);
-    border: 1px dashed black;
+    color:white;
+    background-color: hsl(226.73deg 58.43% 65.1%);
+    padding: 10px;
+    border-radius: 20px;
 }
