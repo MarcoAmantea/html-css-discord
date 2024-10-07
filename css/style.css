@@ -74,7 +74,7 @@ ul{
 }
 h1{
     margin-bottom: 50px;
-    font-size: 60px;
+    font-size: 50px;
 }
 p{
     font-size: 20px;
@@ -114,7 +114,7 @@ p{
     display: flex;
 }
 .gray{
-    background-color: hsl(0deg 0% 82.75%);
+    background-color: hsl(0deg 0% 96.47%);
     width: 100%;
     display: flex;
 }
@@ -123,10 +123,21 @@ p{
 
 .green{
     width: 100%;
-    height: 600px;
-    background-color: hsl(120deg 60.69% 33.92%);
-    border: 1px dashed;
+    height: 1000px;
     margin: 50px 0;
+    text-align: center;
+}
+.adventure{
+    font-size: 40px;
+    background-image: url(../img/stars.svg);
+    background-size: auto
+}
+.square-download-2{
+    background-color: hsl(226.73deg 58.43% 65.1%);
+    color:white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
 }
 .black{
     background-color: black;
