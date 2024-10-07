@@ -130,7 +130,8 @@ p{
 .adventure{
     font-size: 40px;
     background-image: url(../img/stars.svg);
-    background-size: auto
+    background-position: center;
+    background-size: contain;
 }
 .square-download-2{
     background-color: hsl(226.73deg 58.43% 65.1%);
